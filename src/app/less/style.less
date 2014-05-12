@@ -1,0 +1,391 @@
+@import "/bootstrap/less/bootstrap";
+@import "/font-awesome/less/font-awesome";
+
+@import "utils";
+
+
+body {
+
+}
+h1{
+color: #39b3d7 !important;
+font-family: 'Open Sans', sans-serif !important;
+font-size: 68px !important;
+padding-bottom: 40px; 
+}
+h2{
+  color: #39b3d7 !important;
+  font-family: 'Droid Serif', serif !important;
+  padding-bottom: 20px; 
+}
+h3{
+    font-family: 'Droid Serif', serif !important;
+    color: black;
+}
+
+a{
+    color: #39b3d7;
+}
+
+.nav.navbar-nav h3:hover{
+cursor: pointer;
+color: #55555c;
+}
+
+p{
+font-size:20px;
+font-family: 'Open Sans', sans-serif;
+line-height: 37.5px !important;
+font-weight: 300;
+color: #55555c;
+
+}
+
+input{
+    height:40px;
+    width: 100%;
+}
+
+textarea{
+    width: 100%;
+    height: 160px;
+    margin-top: 40px !important;
+}
+
+
+a:hover{
+  text-decoration: none !important;
+}
+
+.nav.navbar-nav li {
+    padding: 10px;
+}
+
+
+.line{
+    border-top: solid;
+    border-width: 1px;
+    border-color: #39b3d7 !important;
+    margin-top: 100px;
+}
+
+.logo{
+  margin-top: 40px;
+  margin-left: -40px;
+
+}
+
+.arrow-down{
+width: 15px;
+height: 15px;
+border-left: 15px solid transparent;
+border-right: 15px solid transparent;
+border-top: 15px solid #f9f9f6;
+margin-left: 49%;
+margin-right: 51%;
+margin-top: 180px;
+}
+.text-about{
+  padding:85px;
+}
+
+
+.text{
+padding-top:150px;
+padding-bottom: 150px;
+}
+.parallax01 {
+  background: url("/img/alexandra-riksdagen.JPG") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top:80px;
+}
+
+.parallax02 {
+  background: url("/img/parallax-mami.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+.parallax02 img{
+  padding: 10px;
+}
+
+.parallax02 img:hover{
+  cursor: pointer;
+  margin-top: -2px;
+}
+
+.parallax02 h3{
+  color: white !important; 
+  font-family: 'Open Sans', sans-serif !important; 
+  margin-bottom: 100px;
+}
+
+
+.layer{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  //background-color: rgba(0, 0, 0, 0.6);
+  background: -webkit-linear-gradient(right, rgba(0, 0, 0, 1) , rgba(0, 0, 0, 0.3)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3));  
+  background: -moz-linear-gradient(left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(left, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.3)); /* Standard syntax */
+}
+
+
+.layer-blog{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+.layer-index{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+
+.pull-down{
+    margin-top: 100px;
+}
+
+.section-quote{
+    height:600px;
+    background: #6cbfee;
+    position: relative;
+}
+
+.contact-me{
+    color: white !important;
+    margin-top: 0px;
+}
+
+
+/* ---------- FONTAWESOME ---------- */
+
+[class*="fontawesome-"]:before {
+  font-family: 'FontAwesome', sans-serif;
+}
+
+/* ---------- GENERAL ---------- */
+
+body {
+    background-color: #C0C0C0;
+    color: #000;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5em;
+}
+
+input {
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    -webkit-appearance: none;
+}
+
+
+
+.blogposts{
+background-color: #f9f9f6;
+top: -40px;
+position: relative;
+}
+
+.maintron.blog{
+  padding: 250px 0 193px 0;
+  background: url('/img/maintron-blog.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.maintron.index{
+  padding: 380px 0 380px 0;
+  background: url('/img/alexandra-skolkampanj.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.home{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  color: white;
+}
+.home:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+.maintron.blog h1 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.maintron.blog h3{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.maintron.index h1 {
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.maintron.index h3{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+.blogposts h2 {
+  text-align: center;
+  margin-top: 80px;
+  font-family: 'Droid Serif', serif; 
+}
+
+.blogposts hr.sm{
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+
+.navbar-default{
+  background-color: white !important;
+  border-color: white !important;
+}
+
+.blog-image{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  max-height: 700px;
+}
+.date{
+  text-align: center;
+}
+
+.center{
+  text-align: center !important;
+}
+
+
+.post-text{
+text-align: left; 
+max-width: 700px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 40px;
+font-family: 'Open Sans', sans-serif;
+line-height: 39.5px !important;
+font-weight: 300;
+color: #55555c;
+font-size: 20px;
+}
+
+.bottom {
+  position: absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  color: white;
+  width: 100% !important;
+}
+
+.campaign-drag-right {
+  float: right !important;
+  margin-right: -10px;
+  padding: 20px 0;
+  list-style: none;
+  margin-bottom: 0;
+  @media (min-width:@screen-tablet) {
+    float: right !important;
+    margin-right: 100px;
+    padding-top: 50px;
+    list-style: none;
+    margin-bottom: 0;
+  }
+}
+
+.campaign-drag-right  li {
+  float: left;
+  padding: 0 15px;
+}
+
+.campaign-drag-right  p {
+  color: white !important;
+  margin: 0px !important;
+}
+footer{
+  font-family: 'Droid Serif', serif !important;
+}
+@media only screen and (max-width : 767px) {
+
+.cbp-qtrotator blockquote p{
+    font-size: 20px !important;
+}
+
+footer{
+    font-size: 15px !important;
+}
+
+.cbp-qtrotator {
+    width: 90% !important;
+}
+
+
+.text{
+    padding-top: 0px;
+}
+
+p{
+    font-size: 20px;
+}
+.nav.navbar-nav li {
+    padding: 0px;
+}
+
+}
+
+
+@media only screen and (max-width : 990px) {
+
+  .parallax02 h3{
+    margin-bottom: 10px;
+  }
+}
+
+@media only screen and (max-width : 520px) {
+
+.parallax01{
+    display: none;
+}
+
+h1{
+  font-size: 54px !important;
+}
+
+}
