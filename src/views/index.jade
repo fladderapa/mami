@@ -76,7 +76,7 @@ block body
                                   footer
                                       |Colombianskt ordspråk
                   
-  .section.parallax01(style="height:700px; position:relative;", data-stellar-background-ratio="0.8")
+  .section.parallax01(style="height:700px; position:relative;", data-stellar-background-ratio="-0.04")
     div.layer-index(style="text-align: center;")
       .container(style="margin-top: 200px;")
         h1(style="color: white !important;") Gemenskap.
@@ -98,7 +98,7 @@ block body
 
 
                       
-  .section.parallax02(style="height:600px; position: relative;", data-stellar-background-ratio="0.8")
+  .section.parallax02(style="height:600px; position: relative;", data-stellar-background-ratio="0")
       div.layer
         .container.pull-down
           .row
@@ -124,12 +124,6 @@ block body
                       p alexandra.puccini@moderat.se
                     li
                       p +46 704 44 36 72 
-                    
-            
-                                          
-
-
-
   script.
       if(!Modernizr.touch){$(window).stellar({ horizontalScrolling: false });}
       $("#aboutme").click(function() {$('html, body').animate({scrollTop: $("#aboutme-scroll").offset().top}, 2000);});

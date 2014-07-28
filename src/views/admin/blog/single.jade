@@ -29,9 +29,8 @@ block content
         .form-group
           label(for='txt-editor') Innehåll
 
-          #txt-editor-toolbar(style='display: none;')
-
-            include ../editor-templates/editor-toolbar
+          label(for="name") Text Area
+          textarea.form-control(rows="7")!=blogpost.text
 
           p
             textarea.form-control#txt-editor(name="text", rows="7")!=blogPost.text
